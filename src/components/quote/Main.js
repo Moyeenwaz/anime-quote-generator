@@ -30,7 +30,7 @@ export const Main = () => {
   return (
     <QuoteCard>
       <Header>
-        <img src="images/icons8-son-goku-64.png" />
+        <img src="images/icons8-son-goku-64.png" alt="goku" />
         <Title>Random anime quotes</Title>
       </Header>
       <TextContainer>
@@ -45,7 +45,7 @@ export const Main = () => {
       <ButtonContainer>
         <Button onClick={getQuote}>Another!</Button>
         <Button clipboard={true} onClick={copyText}>
-          <img src="images/icons8-clipboard-approve-64.png" />
+          <img src="images/icons8-clipboard-approve-64.png" alt="clipboard" />
         </Button>
       </ButtonContainer>
     </QuoteCard>
