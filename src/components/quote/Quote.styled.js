@@ -33,7 +33,7 @@ export const TextContainer = styled.div`
 `;
 
 export const QuoteText = styled.h1`
-  width: 80%;
+  width: 90%;
   font-family: "Unica One", cursive;
   color: white;
   letter-spacing: 2px;

@@ -33,6 +33,7 @@ export const Main = () => {
         <img src="images/icons8-son-goku-64.png" alt="goku" />
         <Title>Random anime quotes</Title>
       </Header>
+
       <TextContainer>
         <QuoteText>{quote ? quote.quote : "Yare Yare Daze"}</QuoteText>
         <Author>
